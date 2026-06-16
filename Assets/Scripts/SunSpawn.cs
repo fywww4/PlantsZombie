@@ -8,7 +8,7 @@ public class SunSpawn : MonoBehaviour
 
     void Start()
     {
-        InvokeRepeating("Spawn", 10, 10);
+        InvokeRepeating("Spawn", 2, 2);
     }
 
     void Spawn()

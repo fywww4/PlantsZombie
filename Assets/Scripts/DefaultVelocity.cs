@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class DefaultVelocity : MonoBehaviour
@@ -8,6 +6,6 @@ public class DefaultVelocity : MonoBehaviour
 
     void FixedUpdate()
     {
-        GetComponent<Rigidbody>().velocity = velocity;
+        GetComponent<Rigidbody2D>().velocity = velocity;
     }
 }
